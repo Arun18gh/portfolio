@@ -1,16 +1,42 @@
-# React + Vite
+# 🛡️ Cyber Security Portfolio & SOC Telemetry Console
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+An enterprise-grade, rule-based cybersecurity portfolio and interactive telemetry console built with **React**, **Vite**, **Tailwind CSS**, and **EmailJS**.
 
-Currently, two official plugins are available:
+🌐 **Live Production Deployment**: [https://arun18gh.github.io/portfolio/](https://arun18gh.github.io/portfolio/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## ⚡ Core Architecture & Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* **3D Biometric Surveillance Eye**: Interactive HUD canvas dynamically tracking cursor movement with real-time biometric telemetry loops.
+* **Interactive Security Research Console**: Live browser-based sandbox environment allowing security analysts to query simulated pseudo-commands (`snort-benchmark`, `forensic-audit`, `trace-asyncrat`, `firewall-status`).
+* **Tactical Project Cockpit**: Split-screen architecture inspector detailing six core academic and practical cybersecurity engineering workflows.
+* **Secure Incident Dispatch Portal**: Authenticated TLS 1.3 incident reporting form integrated with EmailJS, generating cryptographically tagged tracking references (`SEC-DISPATCH-XXXXXX`) and automated visitor confirmation receipts.
+* **Comprehensive Research Deep-Dives**: Dedicated documentation pages covering MSc dissertation empirical findings (Snort 2.9 vs Suricata 7.0), EnCase workstation disk forensics (M57 Jean / AsyncRAT C2), inline `nftables` IPS, and ISO 27001 / BCDR business resilience frameworks.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Technical Stack
+
+* **Frontend & UI**: React, Vite, Tailwind CSS, Lucide React, HTML5 Canvas, SVG HUD
+* **Integrations**: EmailJS (Client-side secure dispatch API)
+* **Version Control & CI/CD**: Git, GitHub Actions, GitHub Pages
+
+---
+
+## 🚀 Local Development & Execution
+
+To spin up this development environment locally:
+
+```bash
+# Clone the repository
+git clone [https://github.com/Arun18gh/portfolio.git](https://github.com/Arun18gh/portfolio.git)
+
+# Navigate into the working directory
+cd portfolio
+
+# Install project dependencies
+npm install
+
+# Start the local development server
+npm run dev
